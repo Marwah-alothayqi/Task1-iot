@@ -1,0 +1,9 @@
+Algorithm to run wasmdom ESP32 piece:
+1.download arduino ide app from arduino website
+2.install and then run arduino ide at the first it is not known about esp piece.
+3.to make it known for esp32 first click file then preference then add this line in the blank (https://dl.espressif.com/dl/package_esp32_index.json) then press ok .
+4.after that press tools then board-boards manger write " ESP32 "in the above blank then press install  "this step need to be connected to internet "
+5.Then tools-board-ESP32 arduino don't connect to esp32 segment by USB wire.
+6.then press tools-board-ESP32 arduino-wemos d1 mini ESP32 .
+7.after that press tools-port"COM3"-COM3 to connect to the piece.
+8.Now to make sure its ready for programming we need to make the  light run ,  first press file -examples-basic-blink then jest press the run button in the above of the page, from the code you can controle time the light on or off.
